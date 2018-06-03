@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/net"
+    tools:context="com.example.kartikey.wifipaint_project.Wifi_Connectivity">
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      >
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="249dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="center"
+      android:background="@color/orange"
+      android:text ="CHOOSE THE NEARBY DEVICE "
+      android:textAppearance="?android:textAppearanceLarge"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:src="@drawable/wifi" />
+  </LinearLayout>
+  <!-- <HorizontalScrollView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/sky_blue"
+        android:textAppearance="?android:textAppearanceLarge"/>
+  </HorizontalScrollView> -->
+
+  <TextView
+      android:id="@+id/txt2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:textAppearanceLarge"/>
+  <ListView
+      android:id="@+id/lv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:divider="@color/colorPrimary"
+      android:listSelector="@color/colorAccent"
+      android:dividerHeight="2dp"
+      ></ListView>
+</LinearLayout>
